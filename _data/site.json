@@ -1,6 +1,6 @@
 {
-    "title": "Tobias Leong",
-    "desc": "1-2 sentences about the site (optional)",
-    "author": "Tobias Leong",
-    "baseurl": "https://eleventy-garden.netlify.app"
+  "title": "Tobias Leong",
+  "desc": "1-2 sentences about the site (optional)",
+  "author": "Tobias Leong",
+  "baseurl": "https://eleventy-garden.netlify.app"
 }
