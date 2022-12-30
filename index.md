@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base-layout.njk
 ---
 
 <img src="assets/tobias.jpg" alt="tobias" width="100%"><br>

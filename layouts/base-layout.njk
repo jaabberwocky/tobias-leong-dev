@@ -8,9 +8,10 @@
       <nav>
         <a href="/">Home</a>
         <a href="/about">About Me</a>
+        <a href="/posts">Blog</a>
       </nav>
     </header>
-    <main>{{content}}</main>
+    <main>{{content | safe}}</main>
 
     <footer class="page-footer">
       <small>Copyright {{site.author}}</small>
