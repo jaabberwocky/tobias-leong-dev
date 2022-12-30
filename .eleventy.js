@@ -32,6 +32,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/typewriter-effect/dist/core.js": "assets/js/core.js",
+  });
   eleventyConfig.setUseGitIgnore(false);
 
   return {
