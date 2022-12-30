@@ -11,6 +11,8 @@ pagination:
 
 {%- for post in posts -%}
     <article>
-        <h2><a href="{{ post.url | url}}">{{ post.data.title }}</a></h2>
+        <h3><a href="{{ post.url | url}}">{{ post.data.title }}</a></h3> - {{ post.date }}
     </article>
 {%- endfor -%}
+
+More can be found in archives.
