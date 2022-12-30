@@ -6,7 +6,7 @@ title: About Me
 # About Me
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" align="bottom" alt="linkedin-image" width="25px"> [https://www.linkedin.com/in/tobiasleong/](https://www.linkedin.com/in/tobiasleong/)<br>
-<img src="../assets/email-icon.svg" width="25px"> [tobias@tobias-leong.dev](mailto:tobias@tobias-leong.dev)><br><br>
+<img src="../assets/email-icon.svg" width="25px"> [tobias@tobias-leong.dev](mailto:tobias@tobias-leong.dev)<br><br>
 Senior Software Engineering Manager by day: I lead teams, predominantly on the frontend, on building a SaaS product at scale... that's about it.
 
 I _kid_ - I spend time building side projects (check out the blog!) and various sports:
