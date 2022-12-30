@@ -1,8 +1,8 @@
 ---
 layout: post.njk
 tags: "post"
-title: "Post 2"
+title: "Post 3"
 ---
 
-# Blog post 2
+# Blog post 3
 Hello universe!

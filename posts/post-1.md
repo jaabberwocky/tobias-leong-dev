@@ -1,8 +1,8 @@
 ---
-layout: base-layout.njk
-tags: ['post']
-title: "Post 1"
+layout: post.njk
+tags: "post"
+title: "Hello World!"
 ---
 
-# Blog post 1
-Hello world
+# Hello World!
+Hello world! I finally got `nunjucks` templates working with `eleventy` here!

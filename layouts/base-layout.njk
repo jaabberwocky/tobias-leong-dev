@@ -11,7 +11,9 @@
         <a href="/posts">Blog</a>
       </nav>
     </header>
-    <main>{{content | safe}}</main>
+    <main>
+        {% block content %}{{content | safe}}{% endblock %}
+        </main>
 
     <footer class="page-footer">
       <small>Copyright {{site.author}}</small>
