@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "eleventy --serve --quiet",
-    "compile": "eleventy"
+    "compile": "eleventy",
+    "clean": "rm -r _site"
   },
   "repository": {
     "type": "git",
