@@ -5,7 +5,8 @@
     "start": "eleventy --serve --quiet",
     "compile": "eleventy",
     "clean": "rm -r _site",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,14 +16,16 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "markdown-it": "^12.3.2",
-    "markdown-it-attrs": "^4.1.4",
-    "markdown-it-footnote": "^3.0.3",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "prettier": "2.8.1",
     "title-case": "^3.0.3"
   },
   "dependencies": {
     "typewriter-effect": "^2.19.0"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
 }
