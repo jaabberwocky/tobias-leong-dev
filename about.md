@@ -18,4 +18,3 @@ I _kid_ - I spend time building side projects (check out the blog!) and various 
 3. Football:
    - I play recreationally
    - Serve as a [Class 3 FAS referee](https://www.fas.org.sg/referees/) too
- 

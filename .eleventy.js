@@ -1,11 +1,10 @@
 const { DateTime } = require("luxon");
 
 const postDate = (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-}
+  return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+};
 
 module.exports = function (eleventyConfig) {
-
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy({
     "./node_modules/typewriter-effect/dist/core.js": "assets/js/core.js",

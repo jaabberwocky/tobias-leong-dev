@@ -8,12 +8,13 @@ pagination:
   alias: posts
   reverse: true
 ---
+
 <h1>Latest Posts</h1>
 
 {%- for post in posts -%}
-    <article>
-        <h3><a href="{{ post.url | url}}">{{ post.data.title }}</a></h3> - {{ post.date | postDate }}
-    </article>
+<article>
+<h3><a href="{{ post.url | url}}">{{ post.data.title }}</a></h3> - {{ post.date | postDate }}
+</article>
 {%- endfor -%}
 
 More can be found in archives.
