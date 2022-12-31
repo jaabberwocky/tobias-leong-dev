@@ -4,7 +4,8 @@
   "scripts": {
     "start": "eleventy --serve --quiet",
     "compile": "eleventy",
-    "clean": "rm -r _site"
+    "clean": "rm -r _site",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
