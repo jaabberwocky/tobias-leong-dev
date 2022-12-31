@@ -6,12 +6,13 @@ pagination:
   data: collections.post
   size: 10
   alias: posts
+  reverse: true
 ---
-<h1>Posts</h1>
+<h1>Latest Posts</h1>
 
 {%- for post in posts -%}
     <article>
-        <h3><a href="{{ post.url | url}}">{{ post.data.title }}</a></h3> - {{ post.date }}
+        <h3><a href="{{ post.url | url}}">{{ post.data.title }}</a></h3> - {{ post.date | postDate }}
     </article>
 {%- endfor -%}
 
