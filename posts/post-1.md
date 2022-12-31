@@ -1,6 +1,4 @@
 ---
-layout: post.njk
-tags: "post"
 title: "Hello World!"
 ---
 
