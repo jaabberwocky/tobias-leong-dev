@@ -3,6 +3,6 @@
 {% block content %}
 {{ content | safe }}
 
-<div id="post-date">Last updated: <i>{{ page.date.toUTCString() }}</i><br></div>
+<div id="post-date">Created: <i>{{ page.date.toUTCString() }}</i><br></div>
 <a href="/posts/">Return to all posts</a>
 {% endblock %}
