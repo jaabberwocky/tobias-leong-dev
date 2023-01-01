@@ -14,3 +14,4 @@ Ushering 2023 and wishing it'll be _much_ better than 2022. So much ups and down
 3. New technologies!
    - Golang?
    - Rust?
+   - Arduino?
