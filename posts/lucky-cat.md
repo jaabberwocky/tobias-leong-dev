@@ -1,5 +1,5 @@
 ---
-title: "Happy Chinese New Year!"
+title: "Happy Chinese New Year and the Lucky Cat Project!"
 ---
 
 # Happy (Chinese) New Year
